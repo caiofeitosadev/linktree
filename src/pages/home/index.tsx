@@ -50,9 +50,7 @@ function Home() {
       }
     };
 
-    return () => {
-      loadLinks();
-    };
+    loadLinks();
   }, []);
 
   useEffect(() => {
@@ -68,9 +66,7 @@ function Home() {
         });
       }
     };
-    return () => {
-      loadSocialLinks();
-    };
+    loadSocialLinks();
   }, []);
 
   return (
